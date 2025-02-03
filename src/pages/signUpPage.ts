@@ -1,6 +1,6 @@
 import {Locator, Page} from "@playwright/test";
 
-export class SignUpPagePage {
+export class SignUpPage {
     private page: Page;
     private userNameInput: Locator;
     private emailInput: Locator;

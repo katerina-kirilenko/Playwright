@@ -14,14 +14,14 @@
     "outDir": "./dist",
     "baseUrl": ".",
     "paths": {
-      "@pages/*": [
-        "src/pages/*"
+      "@pages": [
+        "src/pages/index"
       ],
-      "@utils/*": [
-        "src/utils/*"
+      "@helpers/*": [
+        "src/helpers/*"
       ],
-      "@enums/*": [
-        "src/enums/*"
+      "@enums": [
+        "src/enums/index"
       ]
     }
   },
